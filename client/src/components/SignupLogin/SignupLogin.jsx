@@ -74,7 +74,9 @@ const SignupLogin = () => {
     setName("");
     setErrors([]);
   };
-
+  const handleForgetPass = () => {
+    console.log("change")
+  }
   const handleRegisteration = (value) => {
     resetFields();
     setAction(value);
@@ -156,7 +158,7 @@ const SignupLogin = () => {
             ""
           ) : (
             <div className="forgot-password">
-              Forgot Password ? <span>Click here</span>
+              Forgot Password ? <span onClick={() =>  handleForgetPass()}>Click here</span>
             </div>
           )}
 
