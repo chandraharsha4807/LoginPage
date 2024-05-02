@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+}
+.app-container{
+  height: 100vh;
+  display: flex;
+}
+
+
